@@ -1,0 +1,170 @@
+{
+  "title": "arXiv:1706.03762v7 [cs.CL] 2 Aug 2023",
+  "outline": [
+    {
+      "level": "H3",
+      "text": "Provided proper attribution is provided, Google hereby grants permission to reproduce the tables and figures in this paper solely for use in journalistic or scholarly works.",
+      "page": 0
+    },
+    {
+      "level": "H2",
+      "text": "Attention Is All You Need",
+      "page": 0
+    },
+    {
+      "level": "H3",
+      "text": "Abstract",
+      "page": 0
+    },
+    {
+      "level": "H1",
+      "text": "1 Introduction",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "2 Background",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "3 Model Architecture",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "3.1 Encoder and Decoder Stacks",
+      "page": 2
+    },
+    {
+      "level": "H2",
+      "text": "3.2 Attention",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Scaled Dot-Product Attention Multi-Head Attention",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "3.2.1 Scaled Dot-Product Attention",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "3.2.2 Multi-Head Attention",
+      "page": 3
+    },
+    {
+      "level": "H3",
+      "text": "3.2.3 Applications of Attention in our Model",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "3.3 Position-wise Feed-Forward Networks",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "3.4 Embeddings and Softmax",
+      "page": 4
+    },
+    {
+      "level": "H2",
+      "text": "3.5 Positional Encoding",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "4 Why Self-Attention",
+      "page": 5
+    },
+    {
+      "level": "H1",
+      "text": "5 Training",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "5.1 Training Data and Batching",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "5.2 Hardware and Schedule",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "5.3 Optimizer",
+      "page": 6
+    },
+    {
+      "level": "H2",
+      "text": "5.4 Regularization",
+      "page": 6
+    },
+    {
+      "level": "H1",
+      "text": "6 Results",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "6.1 Machine Translation",
+      "page": 7
+    },
+    {
+      "level": "H2",
+      "text": "6.2 Model Variations",
+      "page": 7
+    },
+    {
+      "level": "H1",
+      "text": "1 512 512 5.29 24.9 4 128 128 5.00 25.5 16 32 32 4.91 25.8 32 16 16 5.01 25.4",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "(A)",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "2 6.11 23.7 36 4 5.19 25.3 50 8 4.88 25.5 80 256 32 32 5.75 24.5 28 1024 128 128 4.66 26.0 168 1024 5.12 25.4 53 4096 4.75 26.2 90",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "(C)",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "0.0 5.77 24.6 0.2 4.95 25.5 0.0 4.67 25.3 0.2 5.47 25.7 (E) positional embedding instead of sinusoids 4.92 25.7 big 6 1024 4096 16 0.3 300K 4.33 26.4 213",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "(D)",
+      "page": 8
+    },
+    {
+      "level": "H2",
+      "text": "6.3 English Constituency Parsing",
+      "page": 8
+    },
+    {
+      "level": "H1",
+      "text": "7 Conclusion",
+      "page": 9
+    },
+    {
+      "level": "H3",
+      "text": "References",
+      "page": 9
+    }
+  ]
+}

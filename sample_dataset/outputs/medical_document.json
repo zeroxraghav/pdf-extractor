@@ -1,0 +1,30 @@
+{
+  "title": "Novel Coronavirus (2019-nCoV)",
+  "outline": [
+    {
+      "level": "H2",
+      "text": "ZIKA VIRUS",
+      "page": 0
+    },
+    {
+      "level": "H3",
+      "text": "SITUATION REPORT - 1",
+      "page": 0
+    },
+    {
+      "level": "H1",
+      "text": "21 JANUARY 2020",
+      "page": 0
+    },
+    {
+      "level": "H1",
+      "text": "1 Severe illness: According to any of the following criteria: (1) dyspnea; (2) respiratory rate more than 30 bpm; (3) hypoxemia; (4) chest X-ray with multi-lobar infiltrates or pulmonary infiltration progressed more than 50% within 24 - 48 hours.",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "2 Critical condition: According to any of the following criteria: (1) respiratory failure; (2) septic shock; (3) other organ failure which requires Intensive Care Unit (ICU) admission.",
+      "page": 1
+    }
+  ]
+}

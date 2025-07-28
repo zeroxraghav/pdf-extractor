@@ -1,0 +1,90 @@
+{
+  "title": "[image]",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "\u25cb Help \u25cb Python Brochure",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "\u2022 Downloads",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "\u2022 Documentation",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "\u2022 Community",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "\u2022 Success Stories",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "\u2022 News",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "\u2022 Events",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "Error 404: File not Found",
+      "page": 2
+    },
+    {
+      "level": "H1",
+      "text": "\u2022 About",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "\u2022 Downloads",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "\u2022 Documentation",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "\u2022 Community",
+      "page": 3
+    },
+    {
+      "level": "H1",
+      "text": "\u2022 Success Stories",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "\u2022 News",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "\u2022 Events",
+      "page": 4
+    },
+    {
+      "level": "H1",
+      "text": "\u2022 Contributing",
+      "page": 4
+    },
+    {
+      "level": "H3",
+      "text": "Copyright \u00a92001-2025. Python Software Foundation Legal Statements Privacy Notice",
+      "page": 5
+    }
+  ]
+}
