@@ -11,9 +11,7 @@ import os
 This script implements a sophisticated heuristic-based model for extracting a 
 structured outline (Title, H1, H2, H3) from a PDF document.
 
-This version is adapted for Docker execution as per the hackathon rules.
-It reads all PDF files from an /app/input directory and writes a corresponding
-JSON file for each to an /app/output directory.
+This version is adapted for the final Round 1A Docker submission structure.
 """
 
 def clean_text(text):
@@ -176,17 +174,18 @@ def analyze_pdf_structure(pdf_path):
 
 
 if __name__ == '__main__':
-     # Setup to allow running both locally and in Docker
-    parser = argparse.ArgumentParser(description="Extract a structured outline from a PDF.")
-    parser.add_argument('--input-dir', default='/app/input', help='The directory to read PDFs from.')
-    parser.add_argument('--output-dir', default='/app/output', help='The directory to write JSON files to.')
-    args = parser.parse_args()
-
-    INPUT_DIR = args.input_dir
-    OUTPUT_DIR = args.output_dir
+    # Define paths based on the required project structure.
+    # This relative path works for both local and Docker execution.
+    BASE_DIR = "sample_dataset"
+    INPUT_DIR = os.path.join(BASE_DIR, "pdfs")
+    OUTPUT_DIR = os.path.join(BASE_DIR, "output")
 
     if not os.path.exists(OUTPUT_DIR):
         os.makedirs(OUTPUT_DIR)
+
+    if not os.path.exists(INPUT_DIR):
+        print(f"Error: Input directory not found at {INPUT_DIR}", file=sys.stderr)
+        sys.exit(1)
 
     pdf_files = [f for f in os.listdir(INPUT_DIR) if f.lower().endswith('.pdf')]
 
@@ -201,7 +200,7 @@ if __name__ == '__main__':
         output_filename = os.path.splitext(pdf_file)[0] + '.json'
         output_path = os.path.join(OUTPUT_DIR, output_filename)
 
-        with open(output_path, 'w') as f:
+        with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(result, f, indent=2)
         
         print(f"Finished processing {pdf_file} in {execution_time:.2f} seconds.")
