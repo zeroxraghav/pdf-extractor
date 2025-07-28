@@ -25,20 +25,6 @@ This approach is designed to be highly resilient, handling a wide variety of doc
 
 The solution is containerized using Docker
 
-### Project Structure
-
-Ensure your project follows this structure:
-
-Challenge_1a/
-├── sample_dataset/
-│ ├── pdfs/
-│ │ └── sample.pdf
-│ └── outputs/
-│
-├── Dockerfile
-├── process_pdfs.py
-└── requirements.txt
-
 ### Build the Docker Image
 
 From the root directory (where the `Dockerfile` is located), run the following command:
