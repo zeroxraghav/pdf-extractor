@@ -180,7 +180,7 @@ def analyze_pdf_structure(pdf_path):
 if __name__ == '__main__':
     BASE_DIR = "sample_dataset"
     INPUT_DIR = os.path.join(BASE_DIR, "pdfs")
-    OUTPUT_DIR = os.path.join(BASE_DIR, "output")
+    OUTPUT_DIR = os.path.join(BASE_DIR, "outputs")
 
     if not os.path.exists(OUTPUT_DIR):
         os.makedirs(OUTPUT_DIR)
