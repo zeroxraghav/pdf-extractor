@@ -1,43 +1,207 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "title": "PDF Outline Structure",
-    "description": "Defines the structure for an extracted PDF outline, including an optional title and a list of headings.",
-    "type": "object",
-    "properties": {
-        "title": {
-            "description": "The main title of the document. This property is optional.",
-            "type": "string"
-        },
-        "outline": {
-            "description": "A list of all the headings found in the document.",
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "level": {
-                        "description": "The heading level (e.g., H1, H2, H3).",
-                        "type": "string",
-                        "enum": [ "H1", "H2", "H3" ]
-                    },
-                    "text": {
-                        "description": "The clean text content of the heading.",
-                        "type": "string"
-                    },
-                    "page": {
-                        "description": "The 0-indexed page number where the heading appears.",
-                        "type": "integer",
-                        "minimum": 0
-                    }
-                },
-                "required": [
-                    "level",
-                    "text",
-                    "page"
-                ]
-            }
-        }
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
     },
-    "required": [
-        "outline"
-    ]
+    "outline": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "level": {
+              "type": "string"
+            },
+            "text": {
+              "type": "string"
+            },
+            "page": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "level",
+            "text",
+            "page"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "level": {
+              "type": "string"
+            },
+            "text": {
+              "type": "string"
+            },
+            "page": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "level",
+            "text",
+            "page"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "level": {
+              "type": "string"
+            },
+            "text": {
+              "type": "string"
+            },
+            "page": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "level",
+            "text",
+            "page"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "level": {
+              "type": "string"
+            },
+            "text": {
+              "type": "string"
+            },
+            "page": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "level",
+            "text",
+            "page"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "level": {
+              "type": "string"
+            },
+            "text": {
+              "type": "string"
+            },
+            "page": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "level",
+            "text",
+            "page"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "level": {
+              "type": "string"
+            },
+            "text": {
+              "type": "string"
+            },
+            "page": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "level",
+            "text",
+            "page"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "level": {
+              "type": "string"
+            },
+            "text": {
+              "type": "string"
+            },
+            "page": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "level",
+            "text",
+            "page"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "level": {
+              "type": "string"
+            },
+            "text": {
+              "type": "string"
+            },
+            "page": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "level",
+            "text",
+            "page"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "level": {
+              "type": "string"
+            },
+            "text": {
+              "type": "string"
+            },
+            "page": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "level",
+            "text",
+            "page"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "level": {
+              "type": "string"
+            },
+            "text": {
+              "type": "string"
+            },
+            "page": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "level",
+            "text",
+            "page"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "title",
+    "outline"
+  ]
 }
